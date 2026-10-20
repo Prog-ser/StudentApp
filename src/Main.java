@@ -5,5 +5,6 @@ public class Main {
         studenti.nota = 8;
         System.out.println(studenti.emri);
         System.out.println(studenti.nota);
+        System.out.println("Studenti u regjistrua");
     }
 }
