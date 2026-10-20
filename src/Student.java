@@ -8,4 +8,8 @@ public class Student{
         System.out.println("Nota: " + nota);
         System.out.println("Email: " + email);
     }
+
+    public boolean kaKaluar(){
+        return nota >= 5;
+    }
 }
