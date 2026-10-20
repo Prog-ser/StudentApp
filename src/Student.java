@@ -12,4 +12,11 @@ public class Student{
     public boolean kaKaluar(){
         return nota >= 5;
     }
+
+    public String rezultati() {
+        if (nota >= 5) {
+            return "Kalues";
+        }
+        return "Jo kalues";
+    }
 }
